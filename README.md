@@ -16,7 +16,7 @@ The basics:
 - Change `APP_NAME` in `ts/constants.ts` to something like `org.your-org.your-plugin` (reverse domain scheme)
 - Change `identifier`in `manifest.json` to to same as `APP_NAME`
 
-To run as a standalone app, when for example making a CLI tool (also useble if you're making a front-end):
+To run as an external app, when for example making a CLI tool (also useble if you're making a front-end):
 
 - `yarn start`
 
@@ -25,3 +25,12 @@ To pack as a plugin and test it, when for example making an integration to an ex
 - `yarn build:dev` or `yarn build:prod`
 - `cd <storex-hub-dir>`
 - `yarn cli plugins:install <this-repo>/build`
+
+## Documentation
+
+In the [Storex documentation](https://worldbrain.github.io/storex-docs/#/storex-hub/) you can find out more about:
+
+- How to write a plugin
+- How to store data in Storex Hub
+- How to connect other external apps, like Memex
+- How to expose custom functionality through remote calls
