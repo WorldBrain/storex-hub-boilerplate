@@ -1,1 +1,1 @@
-export const APP_NAME = 'memex-arweave-sharer'
+export const APP_NAME = 'com.boilerplate.plugin'
