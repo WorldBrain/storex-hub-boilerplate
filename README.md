@@ -11,7 +11,8 @@ This is a minimal boilerplate for both Storex Hub external applications, and plu
 
 The basics:
 
-- Clone this repository
+- `git clone git@github.com:WorldBrain/storex-hub-boilerplate.git`
+- `cd storex-hub-boilerplate && rm -rf .git`
 - `yarn`
 - Change `APP_NAME` in `ts/constants.ts` to something like `org.your-org.your-plugin` (reverse domain scheme)
 - Change `identifier`in `manifest.json` to to same as `APP_NAME`
