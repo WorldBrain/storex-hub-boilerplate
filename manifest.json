@@ -1,0 +1,8 @@
+{
+  "identifier": "com.boilerplate.plugin",
+  "version": "0.0.1",
+  "description": "Plugin boilerplate",
+  "siteUrl": "https://github.com/WorldBrain/storex-hub-boilerplate",
+  "mainPath": "plugin",
+  "entryFunction": "main"
+}
