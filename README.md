@@ -25,7 +25,7 @@ To pack as a plugin and test it, when for example making an integration to an ex
 
 - `yarn build:dev` or `yarn build:prod`
 - `cd <storex-hub-dir>`
-- `yarn cli plugins:install <this-repo>/build`
+- `yarn cli plugin:install <this-repo>/build`
 
 ## Documentation
 
